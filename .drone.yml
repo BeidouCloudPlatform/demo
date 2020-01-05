@@ -13,6 +13,7 @@ steps:
     image: plugins/docker
     settings:
       repo: ysicing/godemo
+      mirror: https://dockerhub.azk8s.cn
       use_cache: true
       username:
         from_secret: dockeruser
